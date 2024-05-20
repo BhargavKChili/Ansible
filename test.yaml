@@ -1,0 +1,11 @@
+name: bhargava
+dob: 26-07-1988
+addres: a,sdfd, asfd
+name: bhargava
+dob: 26-07-1988
+addresses:
+ - address-1: a,sdfd, asfd
+   city: sfasd
+ - address-1: a,sdfd, asfd
+   city: sfasd
+country: India 
