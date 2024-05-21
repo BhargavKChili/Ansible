@@ -4,7 +4,7 @@
     Course: "Terraform"
     Trainer: "Siva Kumar"
     Duration: "120hrs"
-     evadidi: "naa"
+   # evadidi: "naa"
   tasks:
   - name: print information
     ansible.builtin.debug:
