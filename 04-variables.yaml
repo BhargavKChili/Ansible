@@ -12,7 +12,7 @@
   - name: Print Information
     vars:
       evadidi: "naa"
-    ansible.builtin.ping:
+    ansible.builtin.debug:
       msg: "{{evadidi}} madda kudu"
 
 
