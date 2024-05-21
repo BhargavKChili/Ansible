@@ -8,20 +8,14 @@
   - name: print information
     ansible.builtin.debug:
       msg: "Hi we are learning {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
-
-
-
-
-
-
-
-
-
-- name: variables
-  hosts: localhost
-  vars:
-   evardidi: "naa"
   tasks:
   - name: Print Information
+    vars:
+      evardidi: "naa"
     ansible.builtin.ping:
-      msg: "{{evadidi}}madda kudu"
+      msg: "{{evadidi}} madda kudu"
+
+
+
+
+
