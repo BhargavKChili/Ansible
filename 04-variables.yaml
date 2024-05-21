@@ -11,7 +11,7 @@
   tasks:
   - name: Print Information
     vars:
-      evardidi: "naa"
+      evadidi: "naa"
     ansible.builtin.ping:
       msg: "{{evadidi}} madda kudu"
 
