@@ -8,7 +8,7 @@
   - name: print information
     ansible.builtin.debug:
       msg: "Hi we are learning {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
-  tasks:
+
   - name: Print Information
     vars:
       evadidi: "naa"
