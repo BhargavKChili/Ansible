@@ -9,3 +9,9 @@
     ansible.builtin.debug:
       msg: "Hi we are learning {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
 
+  - name: Print Informatio
+    vars:
+      Course: "Devops" #Overriding...Task overriding takes priority over play
+    ansible.builtin.debug:
+       msg: "Hi we are learning {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
+
