@@ -4,18 +4,21 @@
     Course: "Terraform"
     Trainer: "Siva Kumar"
     Duration: "120hrs"
+     evadidi: "naa"
   tasks:
   - name: print information
     ansible.builtin.debug:
       msg: "Hi we are learning {{Course}} from trainer {{Trainer}}, duration is {{Duration}}"
 
   - name: Print Information
-    vars:
-      evadidi: "naa"
     ansible.builtin.debug:
       msg: "{{evadidi}} madda kudu"
 
 
-
+  - name: Print Information
+    vars:
+      evadidi: "nee"
+    ansible.builtin.debug:
+      msg: "{{evadidi}} madda kudu"
 
 
