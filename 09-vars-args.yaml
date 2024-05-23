@@ -1,0 +1,6 @@
+- name: vars args
+  hosts: localhost
+  tasks:
+  -name: Print information
+    ansbile.builtin.debug:
+      msg: "Hi {{NAME}! {{WISHES}}}"
