@@ -1,6 +1,6 @@
-- name: variables
+- name: Variables
   hosts: localhost
   tasks:
-  - name: print information
+  - name: Print information
     ansible.builtin.debug:
-      msg: "Hi, we are learning {{Course}}"
+      msg: "Hello {{NAME}}"
