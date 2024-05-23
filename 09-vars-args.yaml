@@ -3,4 +3,4 @@
   tasks:
   -name: Print information
     ansbile.builtin.debug:
-      msg: "Hi {{NAME}! {{WISHES}}}"
+      msg: "Hi {{NAME}}! {{WISHES}}"
