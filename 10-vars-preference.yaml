@@ -10,7 +10,7 @@
     private: false
   tasks:
   - name: check prefrence
-    vars:
-      WISHES: "Morning from TASK variable"
+    # vars:
+    #   WISHES: "Morning from TASK variable"
     ansible.builtin.debug:
       msg: "Hi, {{WISHES}}"
