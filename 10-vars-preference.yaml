@@ -4,13 +4,21 @@
     WISHES: "Morning from PLAY variable"
   vars_files:
   - vars.yaml
-  vars_prompt:
-  - name: WISHES
-    prompt: Please enter wishes
-    private: false
+  # vars_prompt:
+  # - name: WISHES
+  #   prompt: Please enter wishes
+  #   private: false
   tasks:
   - name: check prefrence
     # vars:
     #   WISHES: "Morning from TASK variable"
     ansible.builtin.debug:
       msg: "Hi, {{WISHES}}"
+
+
+
+    # Preference
+    # 1. Arguuments
+    # 2. Task
+    # 3. variable
+    4. prompt
