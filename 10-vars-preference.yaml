@@ -12,5 +12,5 @@
   - name: check prefrence
     vars:
       WISHES: "Morning from TASK variable"
-    ansbile.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hi, {{WISHES}}"
