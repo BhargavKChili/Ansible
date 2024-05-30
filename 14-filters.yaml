@@ -23,9 +23,11 @@
     ansible.builtin.debug:
       msg: "{{greeting | lower}}"
 
-- name: default value
+- name: remove duplicates
   hosts: localhost
+  vars:
+  numbers: [1, 2, 1, 3, 5, 2, 4, 5]
   tasks:
-  - name: print default value
+  - name: remove duplicate numbers
     ansible.builtin.debug:
-      msg: "Hello {{Course | default('ansible')}}"
+      msg: "{{ numbers | unique }}"
