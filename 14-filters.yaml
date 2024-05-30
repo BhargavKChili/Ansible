@@ -2,6 +2,6 @@
   hosts: localhost
   tasks:
   - name: print default value
-    anisble.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello {{Course | default('ansible')}}"
    
