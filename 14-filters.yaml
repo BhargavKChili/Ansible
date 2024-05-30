@@ -28,6 +28,6 @@
   hosts: localhost
   numbers: [1, 3, 5, 5, 6, 2, 1, 6, 7, 8]
   tasks:
-  - name: remove duplicates
+  - name: remove duplicate numbers
     ansible.builtin.debug:
       msg: "{{numbers | unique}}"
